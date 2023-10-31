@@ -1,0 +1,20 @@
+body{
+    /* background-color: #000;
+    opacity: 0.6;*/
+    
+    /*background-image: url("diu.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed; */
+    background: url("diu.png") no-repeat top right fixed;
+}
+h1{
+    color: tomato;
+}
+#para{
+    color: green;
+}
+.second_heading{
+    color: blue;
+}
+
