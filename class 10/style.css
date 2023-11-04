@@ -1,0 +1,41 @@
+/* h2{
+    border-style: solid;
+    border-style: dotted;
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(183, 23, 215);  
+} */
+/* border shortend */
+/* h2{
+    border: solid 5px rgb(16, 106, 210);
+} */
+
+/* h2{
+    border-top: solid 5px rgb(16, 106, 210);
+    border-bottom: solid 5px rgb(210, 16, 16);
+    border-left: solid 5px rgb(29, 210, 16);
+    border-right: solid 5px rgb(210, 200, 16); 
+} */
+
+h1{
+    border: solid 5px rgb(140, 30, 30);
+    border-radius: 10px;
+}
+
+.firstbox{
+    background-color: blue;
+    width: 600px;
+    height: 200px;
+}
+
+#innerbox{
+    background-color: green;
+    margin: 5px;
+    
+}
+
+#innerbox4{
+    background-color: green;
+    margin-bottom: 5px;
+    
+}
