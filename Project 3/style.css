@@ -1,0 +1,74 @@
+.firstbox{
+    border: solid 3px rgb(229, 225, 166);
+    background-color: rgb(255, 251, 182);
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+}
+#To-do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(79, 79, 79);
+    font: 30px 'Times New Roman';
+    border-radius: 5px;
+    background-color: rgb(227, 223, 151);
+    /* box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.265); */
+    width: 300px;
+    height: 45px;
+    position: fixed;
+    top: 0px;
+    left: 150px;    
+}
+
+.List{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(227, 223, 151);
+    position: relative;
+    top: 55px;
+    left: 20px;   
+}
+
+.List:hover{
+    background-color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.265);
+}
+
+
+
+#txt{
+    position: relative;
+    left: 10px;
+    top: 5.5px;
+    color: rgb(79, 79, 79);
+    font: 25px 'Times New Roman';
+}
+
+.desc{
+    border-radius: 5px;
+    background-color: rgb(227, 223, 151);
+    width: 250px;
+    height: 300px;
+    position: relative;
+    bottom: 270px;
+    left: 325px;
+}
+.desc:hover{
+    background-color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.265);
+}
+#txt2{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    color: rgb(79, 79, 79);
+    font: 25px'Times New Roman';
+}
+#txt3{
+    position: relative;
+    left: 10px;
+    color: rgb(124, 124, 124);
+    font: 15px 'Times New Roman';
+}
