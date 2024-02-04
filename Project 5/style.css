@@ -1,0 +1,39 @@
+body {
+  background-image: url(https://www.bproperty.com/blog/wp-content/uploads/Tea-2-1170x508.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  text-align: center;
+}
+.main {
+  margin-left: 15px;
+}
+div.place {
+  width: 350px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+img {
+  height: 250px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+}
+#pname {
+  color: white;
+  font-size: 20px;
+  margin-left: 3px;
+  border-left: 6px solid white;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(0, 0, 0, 0.386);
+}
