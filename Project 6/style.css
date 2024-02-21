@@ -1,0 +1,68 @@
+#idk{
+  display: flex;
+}
+
+img{
+  height: 150px;
+}
+#header {
+  justify-content: center;
+}
+h1{
+  text-align: left;
+  font: 48px Arial, sans-serif;
+  font-weight: bold;
+  color: #dc0714;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+th {
+  font: 18px Arial, sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  text-align: center;
+  background-color: rgb(0, 178, 169);
+  color: white;
+}
+td {
+  font: 18px Arial, sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background-color: rgb(220, 220, 220);
+}
+tr#Player:hover {
+  background-color: #dc0714;
+  color: white;
+  cursor: pointer;
+}
+tr#Player:visited {
+  color: rgb(114, 114, 114);
+}
+a {
+  font: 18px Arial, sans-serif;
+
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #dc0714;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  background-color: rgb(0, 178, 169);
+}
+a:active {
+  background-color: rgb(220, 220, 220);
+  color: black;
+}
+/*a:visited{
+    background-color: rgb(246, 235, 97);
+    color: black;
+}*/
