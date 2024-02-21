@@ -1,0 +1,73 @@
+:root{
+    background-color: rgb(210, 145, 213);
+}
+.outbox{
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{
+    padding: 30px;
+    height: 30px;
+    max-width: 100%;
+}
+#logo1{
+    height: 25px;
+}
+#logo2{
+    height: 25px;
+    float: right;
+}
+.shoe{
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+}
+#shoe{
+    max-width: 100%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#shoe:hover{
+    transform: scale(1.5);
+}
+.text{
+    padding: 0 20px;
+    text-align: justify;
+}
+.rating{
+    max-width: 100%;
+    height: 20px;
+    padding: 0 20px;
+}
+div.rating img{
+    max-height: 100%;
+}
+.price{
+    font: 40px bold;
+    text-align: center;
+}
+div.price sup{
+    color: rgb(1, 99, 6);
+}
+.button{
+    text-align: center;
+    max-width: 100%;
+    padding:0 0 20px 0;
+}
+#addcrt{
+    background-color: rgb(210, 145, 213);
+    border: none;
+    padding: 10px 80px;
+    max-width: 100%;
+    border-radius: 25px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+#addcrt:hover{
+    background-color: rgb(190, 91, 195);
+}
